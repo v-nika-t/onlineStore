@@ -1,0 +1,78 @@
+html {
+
+    background: background: rgb(11,176,233);
+    background: linear-gradient(90deg, rgba(11,176,233,1) 0%, rgba(235,210,172,1) 38%, rgba(155,222,219,1) 59%, rgba(218,204,168,1) 100%);
+
+
+}
+
+
+
+
+.container {display: inline-block;
+width: 600px;
+height: 400px;
+
+
+}
+
+
+
+.img{display: inline-block;
+width: 300px;
+margin-right: 20px;}
+
+
+.tovar{width: 250px;
+    display: inline-block;
+  
+}
+
+
+
+
+#basket1{
+border-radius: 50%;
+width: 70px;
+height: 70px;
+background-image: url(../images/Корзина.png);
+background-size: contain;
+margin-left: 90%;
+}
+
+
+
+
+a{text-decoration: none;
+color: black;}
+
+table{
+    background: grey;
+border: 1px solid black;
+  border-radius: 10px;
+    
+    
+    
+}
+
+
+
+#admin {
+    list-style-type: none;
+    margin-left: 50%;
+  width: 800px;
+
+
+}
+
+#admin li{
+
+   width: 150px;
+    display: inline-block;
+
+
+}
+
+input:invalid {
+    border: 2px dashed red;
+}
